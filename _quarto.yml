@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "nevamorganlab4.github.io"
@@ -11,11 +12,13 @@ website:
 
 format:
   html:
+    self-contained: true
     theme:
       - cosmo
       - brand
     css: styles.css
     toc: true
+    
 
 editor: visual
 
