@@ -13,12 +13,4 @@ website:
 format:
   html:
     self-contained: true
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-    
-
-editor: visual
 
